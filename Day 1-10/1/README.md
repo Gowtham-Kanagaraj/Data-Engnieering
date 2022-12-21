@@ -96,3 +96,24 @@ There are several options for storing data, including:
 * File storage systems: File storage systems are used to store and organize files. They may be used to store structured data, such as CSV or Excel files, or unstructured data, such as images or documents. Examples of file storage systems include local file systems, network-attached storage (NAS), and cloud storage systems such as AWS S3 and Google Cloud Storage.
 
 When choosing a data storage option, it's important to consider factors such as the size and structure of the data, the performance and scalability requirements, and the cost. Relational databases are well-suited for storing structured data with well-defined relationships, while NoSQL databases are better for storing unstructured data or data with flexible schemas. File storage systems are often used for storing large volumes of unstructured data.
+
+## Basic SQL
+Here are some examples of basic SQL queries that you can use to extract and manipulate data from databases:
+
+    SELECT * FROM table_name;
+This query retrieves all rows and columns from the table named "table_name".
+
+    SELECT column_name1, column_name2 FROM table_name;
+This query retrieves specific columns (column_name1 and column_name2) from the table named "table_name".
+
+    SELECT * FROM table_name WHERE column_name = 'value';
+This query retrieves all rows from the table named "table_name" where the value of the column "column_name" is "value".
+
+    SELECT * FROM table_name WHERE column_name IN ('value1', 'value2');
+This query retrieves all rows from the table named "table_name" where the value of the column "column_name" is either "value1" or "value2".
+
+    SELECT * FROM table_name ORDER BY column_name ASC;
+This query retrieves all rows from the table named "table_name" and sorts the results in ascending order based on the values in the column "column_name".
+
+    SELECT COUNT(*) FROM table_name;
+This query counts the number of rows in the table named "table_name".

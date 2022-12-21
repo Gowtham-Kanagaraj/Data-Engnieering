@@ -8,6 +8,8 @@
 tmp/
 app/**/*.js
 app/**/*.js.map
+# Study plan for 200 days
+temp-study.txt
 
 # dependencies
 node_modules/

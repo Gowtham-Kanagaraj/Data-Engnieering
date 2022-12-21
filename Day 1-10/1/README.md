@@ -84,3 +84,15 @@ There are several common workflows and processes involved in data engineering. T
     * Data pipeline monitoring and maintenance: Data engineers may use tools such as Python, SQL, and data orchestration and scheduling tools such as Apache Airflow and Luigi to monitor and maintain data pipelines.
 
     * Data version control and collaboration: Data engineers may use tools such as Git and GitHub to collaborate on data projects and track changes to data pipelines.
+
+## Data Storage
+
+There are several options for storing data, including:
+
+    * Relational databases: Relational databases are structured databases that store data in tables with rows and columns. Each row represents a record, and each column represents a field. Relational databases use SQL (Structured Query Language) to manipulate and query data. Examples of relational databases include MySQL, Oracle, and PostgreSQL.
+
+    * NoSQL databases: NoSQL databases are non-relational databases that do not use SQL to manipulate and query data. Instead, they use different data models and query languages to store and retrieve data. Examples of NoSQL databases include MongoDB, Cassandra, and Couchbase.
+
+    * File storage systems: File storage systems are used to store and organize files. They may be used to store structured data, such as CSV or Excel files, or unstructured data, such as images or documents. Examples of file storage systems include local file systems, network-attached storage (NAS), and cloud storage systems such as AWS S3 and Google Cloud Storage.
+
+When choosing a data storage option, it's important to consider factors such as the size and structure of the data, the performance and scalability requirements, and the cost. Relational databases are well-suited for storing structured data with well-defined relationships, while NoSQL databases are better for storing unstructured data or data with flexible schemas. File storage systems are often used for storing large volumes of unstructured data.

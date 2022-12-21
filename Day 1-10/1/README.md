@@ -93,6 +93,6 @@ There are several options for storing data, including:
 
     * NoSQL databases: NoSQL databases are non-relational databases that do not use SQL to manipulate and query data. Instead, they use different data models and query languages to store and retrieve data. Examples of NoSQL databases include MongoDB, Cassandra, and Couchbase.
 
-    * File storage systems: File storage systems are used to store and organize files. They may be used to store structured data, such as CSV or Excel files, or unstructured data, such as images or documents. Examples of file storage systems include local file systems, network-attached storage (NAS), and cloud storage systems such as AWS S3 and Google Cloud Storage.
+* File storage systems: File storage systems are used to store and organize files. They may be used to store structured data, such as CSV or Excel files, or unstructured data, such as images or documents. Examples of file storage systems include local file systems, network-attached storage (NAS), and cloud storage systems such as AWS S3 and Google Cloud Storage.
 
 When choosing a data storage option, it's important to consider factors such as the size and structure of the data, the performance and scalability requirements, and the cost. Relational databases are well-suited for storing structured data with well-defined relationships, while NoSQL databases are better for storing unstructured data or data with flexible schemas. File storage systems are often used for storing large volumes of unstructured data.

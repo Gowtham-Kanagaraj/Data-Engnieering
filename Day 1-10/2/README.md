@@ -116,3 +116,31 @@ Data engineers can help a dosa company to answer a wide range of questions by de
 5. How can we identify new business opportunities? By analyzing data from a variety of sources, a data engineer could help the dosa company to identify trends and patterns that could inform new product or service offerings or identify untapped markets for expansion.
 
 Overall, data engineers can help dosa companies to answer a wide range of questions by collecting, storing, and analyzing data from various sources. By using data to inform decision-making, data engineers can help companies to optimize operations, improve performance, and drive growth.
+
+
+# [SQL Learning]()
+
+# Data modeling
+Data modeling and design involve the process of creating a logical representation of data structures and relationships in a database or data system. The goal of data modeling and design is to create a structure that effectively and efficiently represents the data and allows it to be used effectively for various purposes, such as data analysis, reporting, or machine learning.
+
+There are several key steps involved in data modeling and design:
+
+1. Define the purpose and scope of the data model: The first step in data modeling and design is to define the purpose and scope of the data model. This includes understanding the business requirements and goals for the data model, as well as the types of data that will be stored and the relationships between the data elements.
+
+2. Identify the entities and attributes: The next step is to identify the entities and attributes that will be included in the data model. An entity is a unique object or concept in the data model, such as a customer, a product, or an order. An attribute is a characteristic of an entity, such as a customer's name or a product's price.
+
+3. Define the relationships between entities: Once the entities and attributes have been identified, the next step is to define the relationships between the entities. This includes identifying how the entities are related to each other and the type of relationship (e.g., one-to-one, one-to-many, many-to-many).
+
+4. Normalize the data model: Normalization is the process of organizing the data model to reduce redundancy and improve data integrity. This involves breaking down data into smaller, more atomic pieces and organizing it in a way that minimizes duplication and allows for easy updates and maintenance.
+
+5. Test and validate the data model: Once the data model has been designed, it is important to test and validate it to ensure that it meets the business requirements and is effective at storing and organizing the data. This may involve creating
+
+# Data Storage Tools
+
+* Relational databases: Relational databases are a type of data storage technology that uses a structured approach to storing and organizing data. In a relational database, data is organized into tables, with each table containing rows and columns. The rows represent individual records, and the columns represent the data fields or attributes. Relational databases use SQL (Structured Query Language) to manipulate and query data. Examples of relational databases include MySQL and Oracle.
+
+* NoSQL databases: NoSQL databases are a type of data storage technology that is designed to handle large volumes of unstructured or semi-structured data. Unlike relational databases, which use a structured approach to storing data, NoSQL databases use a variety of data models, such as document, key-value, graph, and column-family, to store and organize data. NoSQL databases are often used in situations where the data model is not well-defined or is expected to change frequently. Examples of NoSQL databases include MongoDB and Cassandra.
+
+* File storage systems: File storage systems are a type of data storage technology that is used to store and manage large volumes of unstructured data. File storage systems are typically distributed, meaning that the data is stored across a network of servers, rather than on a single server. File storage systems are often used in big data environments where the data is too large to be stored and processed on a single server. Examples of file storage systems include HDFS (Hadoop Distributed File System) and S3 (Simple Storage Service).
+
+Overall, data engineers use a variety of data storage technologies to store and manage data, depending on the specific needs and requirements of the organization. Relational databases are well-suited for structured data, while NoSQL databases are better suited for unstructured or semi-structured data. File storage systems are often used to store and manage large volumes of unstructured data in big data environments.
